@@ -1,0 +1,154 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+#add_search_display {
+  border: 1px solid black;
+}
+
+form {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+section {
+  /* display: block; */
+  margin: 10px auto;
+  width: 500px;
+  /* border: 1px solid black; */
+  padding: 5px;
+  position: relative;
+}
+
+.button, button{
+  text-decoration: none;
+  /* height: 30px;
+  width: 50px; */
+  padding: 10px;
+  background: black;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+}
+
+span {
+  display: inline-block;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.contact_tag {
+  background: transparent;
+  color: black;
+}
+
+a:hover, .button:hover, button:hover {
+  border: 1px solid black;
+  color: black;
+  background: white;
+  font-weight: bold;
+}
+
+.filtered {
+  font-weight: bold;
+}
+
+.button {
+  margin-left: 0;
+  width: 50px;
+  text-align: center;
+}
+
+.add_contact_button, #add_tag_button, #clear_filter_button {
+  width: 100px;
+}
+
+#filter_message {
+  display: none;
+}
+
+a {
+  /* margin: 10px; */
+  display: inline-block;
+  padding: 10px 0;
+}
+
+input {
+  padding: 8px;
+}
+
+a:hover {
+  border: none;
+}
+
+h2 {
+  display: inline-block;
+}
+
+#search {
+  position: absolute;
+  right: 50px;
+  bottom: 15px;
+}
+
+#no_contacts_display {
+  display: none;
+}
+
+#contact_form_display {
+  display: none;
+}
+
+#contacts_display {
+  display:none;
+  width: 70%;
+}
+
+.contact_container {
+  width: 200px;
+  display: inline-block;
+  /* border: 1px solid black; */
+  vertical-align: top;
+}
+
+.error_message {
+  color: red;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+#contacts_display > div {
+  text-align: center;
+}
