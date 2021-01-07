@@ -4,6 +4,7 @@
   "author": "NF",
   "scripts": {
     "server": "node contacts.js",
+    "start": "cross-env NODE_ENV=dev npm run server",
     "test": "mocha --timeout 10000"
   },
   "private": true,
